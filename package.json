@@ -1,0 +1,59 @@
+{
+  "name": "@dpack/forever",
+  "version": "0.1.1",
+  "description": "Library For Keeping dPacks Online Forever",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "bin": {
+    "dforever": "./index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "ava ./test/*-test.js -s"
+  },
+  "dependencies": {
+    "@dbrowser/vfs-wrapper": "dbrowser/vfs-wrapper#master",
+    "@dpack/api": "dpacks/api#master",
+    "@dpack/core": "dpacks/core#master",
+    "@dwcore/dws2": "dwcore/dws2#master",
+    "chalk": "^2.3.2",
+    "express": "^4.16.3",
+    "figures": "^2.0.0",
+    "greenlock-express": "^2.0.12",
+    "http-body-parser": "^1.1.9",
+    "http-proxy": "^1.16.2",
+    "identify-filetype": "^1.0.0",
+    "is-domain-name": "^1.0.1",
+    "is-http-url": "^2.0.0",
+    "js-yaml": "^3.11.0",
+    "le-store-certbot": "^2.0.5",
+    "lodash.flatten": "^4.4.0",
+    "lodash.pick": "^4.4.0",
+    "mime": "^2.3.1",
+    "mkdirp": "^0.5.1",
+    "ms": "^2.0.0",
+    "prom-client": "^11.0.0",
+    "range-parser": "^1.2.0",
+    "response-time": "^2.3.2",
+    "untildify": "^3.0.2",
+    "vhost": "^3.0.2",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "request-promise-native": "^1.0.5",
+    "rimraf": "^2.6.2",
+    "tempy": "^0.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
