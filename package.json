@@ -1,6 +1,6 @@
 {
   "name": "@dpack/forever",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Library For Keeping dPacks Online Forever",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
@@ -20,7 +20,7 @@
     "test": "ava ./test/*-test.js -s"
   },
   "dependencies": {
-    "@dbrowser/vfs-wrapper": "dbrowser/vfs-wrapper#master",
+    "@dbrowser/vfswrapper": "*",
     "@dpack/api": "dpacks/api#master",
     "@dpack/core": "dpacks/core#master",
     "@dwcore/dws2": "dwcore/dws2#master",
