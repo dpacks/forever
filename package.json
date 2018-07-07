@@ -1,6 +1,6 @@
 {
   "name": "@dpack/forever",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Library For Keeping dPacks Online Forever",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
